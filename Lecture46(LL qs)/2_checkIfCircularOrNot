@@ -1,0 +1,31 @@
+// codestudio
+
+// ip=
+// 1 2 3 4 1
+// 1 2 3 4 5 6 7
+
+// op=
+// True
+// False
+
+// link=https://www.codingninjas.com/codestudio/problems/circularly-linked_1070232?source=youtube&campaign=Lovebabbar_codestudio_26thjan&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar_codestudio_26thjan&leftPanelTab=0
+
+// bool isCircular(Node* head){    
+//     // Write your code here
+//         if(head==NULL)
+//             return true;
+//         if(head->next==NULL)        
+//             return false;    
+//         if(head->next==head)
+//             return true;        
+//         Node* temp=head;
+//         while(temp!=NULL && temp->data!=0){
+//             temp->data = 0;
+//             temp=temp->next;
+//         }             
+//         if(temp==NULL)
+//              return false;
+//         if(temp->data==0 && temp != head)
+//             return false;
+//         if(temp->data==0 && temp == head)return true;
+// }
